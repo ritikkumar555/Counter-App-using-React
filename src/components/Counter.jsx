@@ -4,7 +4,7 @@ function Counter() {
 
     function increaseCount()
     {
-        if(count<10)
+        if(count<50)
         {
             setCount(p => p + 1);
         }
@@ -17,7 +17,7 @@ function Counter() {
 
     function decreaseCount()
     {
-        if(count>-10)
+        if(count>-50)
         {
             setCount(p => p - 1);
         }
